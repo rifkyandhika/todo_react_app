@@ -26,10 +26,23 @@
 - ➕ Add todos
 - 🖊️ Edit todos
 - 🗑️ Delete todos
+- ✅ Compelete todos
 - ⏸ Save todos to Local Storage when the state changes
 - ▶️ Load the todos from Local Storage when the site is loaded again
 - 🌙 Light \ dark mode toggle
 
+## 💻 Tutorial:
+
+1. You first git clone my github
+2. You must install node module, example
+> npm install
+3. Final you start program, example
+> npm start
+
+_________________
+
 <p align="center">
+  ❤️ Thanks to my inspired design to https://github.com/javascriptbear
+  <br/>
   ❤️ Feel free to create issues and contributions for features or bugs to this project.
 </p>
