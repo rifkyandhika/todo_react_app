@@ -230,12 +230,16 @@ export default function App() {
 							ref={taskSummary}
 							mt={'md'}
 							placeholder={'Task Summary'}
+							required
 							label={'Summary'}
 						/>
 						<DatePicker
 							mt={'md'}
 							label="Date input"
-							placeholder="Date input"
+							required
+							placeholder="Date input" v
+							value={taskDate}  // Tambahkan ini
+							onChange={(date) => setTaskDate(date)}  // Tambahkan ini
 						/>
 
 						<Group mt={'md'} position={'apart'}>
